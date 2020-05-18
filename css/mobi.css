@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calbiri;
+	color: white;
+}
+body{
+	background-image: url("images/3.jpg");
+	height: 80%;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+  }
+
+ ul li{
+	 display: inline-block;
+ }
+
+ul li a{
+		 text-decoration: none;
+		 color: white;
+		 padding: 5px 20px;
+		 border: 1px solid transparent;
+		 transition: 0.6s ease;
+
+		}
+
+.main a:hover{
+	background-color: orange;
+	color: white;
+}
+
+ul li.remain a{
+	background-color: orange;
+	color: white;
+}
+.pic img{
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+	width: 200px;
+	height: auto;
+}
+.pic1 img{
+	margin-top: 70px;
+	margin-left: -70px;
+	float: left;
+	width: 200px;
+	height: auto;
+}
+.pic2 img{
+	margin-top: 250px;
+	margin-left: -350px;
+	float: left;
+	height: 250px;
+	width: 500px;
+	opacity:0.6;
+
+}
+
+.pic3 img{
+	margin-top: 10px;
+	margin-left: -70px;
+	float: left;
+	width: 900px;
+	height: 200px;
+	opacity: 0.6;
+}
+.pic4 img{
+	margin-top: 10px;
+	margin: 40px;
+	float: right;
+	width: 80px;
+	height: 80px;
+	
+}
+.pic5 img{
+	margin-top: 100px;
+	opacity: 0.6;
+	float: right;
+	margin: 10px;
+	width: 520px;
+	height: 250px;
+}	
+
+.pic6 img{
+	margin-top: 50px;
+	opacity: 0.5;
+	float: right;
+	margin: 10px;
+	width: 520px;
+	height: 250px;
+}
+
+
+
+
+
+
+
+
+
+	
